@@ -1,0 +1,12 @@
+{
+  "fetchedAt": "2026-10-31T20:56:28.995Z",
+  "sources": {
+    "owid-co2-fossil-plus-land-use.csv": "https://ourworldindata.org/grapher/co2-fossil-plus-land-use.csv?v=1&csvType=filtered&useColumnShortNames=true&overlay=download-data",
+    "owid-co2-by-source.csv": "https://ourworldindata.org/grapher/co2-by-source.csv?v=1&csvType=filtered&useColumnShortNames=true&overlay=download-data",
+    "owid-temperature-anomaly.csv": "https://ourworldindata.org/grapher/temperature-anomaly.csv?v=1&csvType=filtered&useColumnShortNames=true&overlay=download-data",
+    "owid-ipcc-scenarios.csv": "https://ourworldindata.org/explorers/ipcc-scenarios.csv?v=1&csvType=filtered&useColumnShortNames=true&country=SSP1+-+1.9~SSP1+-+2.6~SSP1+-+3.4~SSP1+-+4.5~SSP2+-+1.9~SSP2+-+2.6~SSP2+-+3.4~SSP2+-+4.5~SSP2+-+6.0~SSP3+-+3.4~SSP3+-+4.5~SSP3+-+6.0~SSP4+-+2.6~SSP4+-+3.4~SSP4+-+4.5~SSP4+-+6.0~SSP5+-+1.9~SSP5+-+2.6~SSP5+-+3.4~SSP5+-+4.5~SSP5+-+6.0&Metric=Greenhouse+gas+emissions&Sub-metric=Carbon+dioxide+%28CO%E2%82%82%29&Rate=Total&Region=Global",
+    "noaa-co2-annmean-mlo.csv": "https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_annmean_mlo.csv",
+    "giss-co2-obs-1850-2005.lpl": "https://data.giss.nasa.gov/modelforce/ghgases/CMIP5/CO2_OBS_1850-2005.lpl",
+    "gcb-2025-historical-budget.csv": "https://openclimatedata.github.io/global-carbon-budget/data/global-carbon-budget-2025-historical-budget.csv"
+  }
+}

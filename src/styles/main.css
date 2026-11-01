@@ -1,0 +1,102 @@
+:root {
+  --sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+  --serif: "Source Serif 4 Variable", ui-serif, Georgia, serif;
+  --mono: "Spline Sans Mono Variable", ui-monospace, Menlo, monospace;
+
+  --background: #f6f7f9;
+  --surface: #ffffff;
+  --border: #e3e6eb;
+  --text: #1b1e23;
+  --text-muted: #5f6672;
+  --accent: #3b5fc0;
+  --accent-soft: #eaeffa;
+  --danger: #c0392b;
+  --radius: 10px;
+
+  /* The carbon cycle diagram and the charts are designed for a light background */
+  color-scheme: light;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--text);
+  font: 15px/1.5 var(--sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--accent);
+}
+
+/* Observable Plot figures */
+figure {
+  margin: 0;
+}
+
+/* Rendered Markdown */
+.markdown h2 {
+  margin: 48px 0 12px;
+  font-size: 1.5rem;
+  line-height: 1.2;
+}
+
+.markdown h3 {
+  margin: 32px 0 8px;
+  font-size: 1.15rem;
+}
+
+.markdown p,
+.markdown ul {
+  margin: 0 0 16px;
+}
+
+.markdown blockquote {
+  margin: 0 0 16px;
+  padding: 4px 16px;
+  border-left: 3px solid var(--border);
+  color: var(--text-muted);
+}
+
+.markdown code {
+  font-family: var(--mono);
+  font-size: 0.85em;
+}
+
+.markdown table {
+  width: 100%;
+  margin: 0 0 16px;
+  border-collapse: collapse;
+  font-family: var(--sans);
+  font-size: 0.875rem;
+  display: block;
+  overflow-x: auto;
+}
+
+.markdown th,
+.markdown td {
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
+}
+
+.markdown th {
+  font-weight: 600;
+}
+
+.markdown .katex-display {
+  margin: 16px 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 4px 0;
+}
