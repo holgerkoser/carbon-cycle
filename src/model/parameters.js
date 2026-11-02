@@ -70,7 +70,7 @@ export const parameterGroups = [
   {
     id: 'exchange',
     title: 'Tomizuka: exchange fluxes',
-    description: 'Pre-industrial gross fluxes between the reservoirs and the CO₂ fertilization of the biosphere. β and the thermohaline circulation are fitted to the Global Carbon Budget (notebook values: 0.11 and 59).',
+    description: 'Pre-industrial gross fluxes between the reservoirs and the CO₂ fertilization of the biosphere. β and the thermohaline circulation are fitted to the Global Carbon Budget (paper: 0.42 and 43).',
     fit: 'tomizuka',
     parameters: [
       { key: 'beta', label: 'CO₂ fertilization factor β', unit: '', control: 'number', step: 0.001, default: 0.107 },

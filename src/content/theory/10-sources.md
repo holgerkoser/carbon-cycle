@@ -21,5 +21,3 @@ The data are stored in `public/data` and can be updated with `yarn fetch-data`.
 | Pulse response reference | Joos et al. (2013), [ACP 13, 2793](https://doi.org/10.5194/acp-13-2793-2013) |
 | Two-layer energy balance model | Geoffroy et al. (2013), [J. Climate 26, 1841](https://doi.org/10.1175/JCLI-D-12-00195.1) |
 | CO₂ radiative forcing | Myhre et al. (1998), [GRL 25, 2715](https://doi.org/10.1029/98GL01908) |
-
-The original Observable notebook is available as a [reference viewer](./notebook/).

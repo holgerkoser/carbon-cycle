@@ -22,7 +22,7 @@ Only the years after 1950 count; before, the budget relies more on ice cores and
 
 | Model | Fitted parameters | Defaults (fitted) | Earlier values |
 | --- | --- | --- | --- |
-| Tomizuka | $\beta$ and thermohaline circulation $z_1$ | 0.107 and 75.1 PgC/yr | 0.11 and 59 PgC/yr (original notebook) |
+| Tomizuka | $\beta$ and thermohaline circulation $z_1$ | 0.107 and 75.1 PgC/yr | 0.42 and 43 PgC/yr (paper) |
 | Bern | CO₂ fertilization factor $\beta$ | 0.446 | 0.287 (published, IPCC SAR) |
 
 The Bern model only fits the land: its ocean is fixed by the radiocarbon calibration of the ocean models.
